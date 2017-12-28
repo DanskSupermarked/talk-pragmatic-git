@@ -202,10 +202,11 @@ Avoid changing fundamental behaviour lest you forget about it, e.g.
     ```
     $ git config alias.pr 'pull --rebase'
     ```
-- don't magically transform line endings locally with `core.autocrlf`; prefer
-  enforcing global truth
+- don't magically transform line endings locally with `core.autocrlf`
+  \footnote{\texttt{core.autocrlf} should be \texttt{false} or
+  \emph{unspecified}}; prefer enforcing global truth
     ```
-    $ printf '* text=auto !eol\n' >> .gitattributes
+    $ printf '* text=auto !eol\n' > .gitattributes
     ```
 
 ## Git environment
