@@ -293,7 +293,7 @@ Expected properties:
 - Atomic: all or nothing
 - Consistent: always valid state
 
-Greatly simplifies review, test, troubleshooting (especially `git bisect`)
+Greatly simplifies review, test, troubleshooting (e.g. `git bisect`)
 
 . . .
 
@@ -409,9 +409,9 @@ $ git config alias.force-push \
 
 ## Disable automatic fetching
 
-Some third-party frontends fetch automatically
-\footnote{\url{https://github.com/Microsoft/vscode/issues/23951}}
-\footnote{\url{https://community.atlassian.com/t5/Sourcetree-questions/Prevent-automatic-fetching-in-Sourcetree/qaq-p/231174}}
+Some third-party frontends fetch automatically\footnote{
+\url{https://github.com/Microsoft/vscode/issues/23951}}\footnote{
+\url{https://community.atlassian.com/t5/Sourcetree-questions/Prevent-automatic-fetching-in-Sourcetree/qaq-p/231174}}
 
 . . .
 
