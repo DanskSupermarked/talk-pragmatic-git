@@ -404,6 +404,15 @@ $ git config alias.force-push \
     'push --force-with-lease --repo='
 ```
 
+## Disable automatic fetching
+
+Some third-party frontends fetch automatically
+\footnote{\url{https://github.com/Microsoft/vscode/issues/23951}}
+\footnote{\url{https://community.atlassian.com/t5/Sourcetree-questions/Prevent-automatic-fetching-in-Sourcetree/qaq-p/231174}}
+
+> - **Unhelpful**: does not match Git's model
+> - **Wrong**: breaks `--force-with-lease`!
+
 # Tooling
 
 ## Tooling
