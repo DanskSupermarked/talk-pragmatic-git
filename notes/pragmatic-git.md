@@ -162,6 +162,19 @@ set show-all-if-unmodified on
 
 ## Git environment
 
+Keep Git up to date (currently \href{https://git-scm.com/}{2.15.1}).
+
+- Security fixes
+- New features
+- Speed improvements
+    - Especially on Windows
+
+```
+$ sudo add-apt-repository ppa:git-core/ppa
+```
+
+## Git environment
+
 You can change many default behaviours with `git config`, e.g.
 
 - Friendlier diff
