@@ -295,6 +295,8 @@ Expected properties:
 
 Greatly simplifies review, test, troubleshooting (especially `git bisect`)
 
+. . .
+
 - Commit "size" is a red herring
     - As small as possible, as large as necessary
     - Don't bundle unrelated work
@@ -410,6 +412,8 @@ $ git config alias.force-push \
 Some third-party frontends fetch automatically
 \footnote{\url{https://github.com/Microsoft/vscode/issues/23951}}
 \footnote{\url{https://community.atlassian.com/t5/Sourcetree-questions/Prevent-automatic-fetching-in-Sourcetree/qaq-p/231174}}
+
+. . .
 
 > - **Unhelpful**: does not match Git's model
 > - **Wrong**: breaks `--force-with-lease`!
