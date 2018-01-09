@@ -410,7 +410,8 @@ $ git config alias.force-push \
 ## Disable automatic fetching
 
 Some third-party frontends fetch automatically\footnote{
-\url{https://github.com/Microsoft/vscode/issues/23951}}\footnote{
+\url{https://github.com/Microsoft/vscode/issues/23951}; fixed in 1.19.0: \\ 
+Microsoft/vscode@548bfe9}\footnote{
 \url{https://community.atlassian.com/t5/Sourcetree-questions/Prevent-automatic-fetching-in-Sourcetree/qaq-p/231174}}
 
 . . .
